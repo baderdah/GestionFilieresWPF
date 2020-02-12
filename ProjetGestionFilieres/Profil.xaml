@@ -1,0 +1,186 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetGestionFilieres"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="ProjetGestionFilieres.Profil"
+        mc:Ignorable="d"
+        Title="Profil" Height="766.167" Width="1108" Loaded="profilLoaded" Margin="0">
+    <Grid Margin="0,0,32.333,33">
+        <telerik:RadNavigationView HorizontalAlignment="Stretch" Margin="10,10,-34,10.333" PaneHeader="Menu" PaneHeaderBackground="#FFCE9D9D" VerticalAlignment="Stretch" Background="White" BorderBrush="#FFE52E2E" Foreground="#FFF8F8F8" PaneBackground="#FFCE9D9D" PaneHeaderForeground="Black" FontSize="18" FontWeight="Bold">
+            <telerik:RadNavigationView.Items>
+                <telerik:RadNavigationViewItem Content="Gestion des étudiants" telerik:StyleManager.Theme="VisualStudio2019" IsSelected="True" Click="PageStudents_Click">
+                    <telerik:RadNavigationViewItem.Icon>
+                        <telerik:RadGlyph Glyph="&#xe813;" FontSize="20"/>
+                    </telerik:RadNavigationViewItem.Icon>
+                </telerik:RadNavigationViewItem>
+                <telerik:RadNavigationViewItem Content="Gestion des filières" Click="filiereView">
+                    <telerik:RadNavigationViewItem.Icon>
+                        <telerik:RadGlyph Glyph="&#xe65b;" FontSize="20"/>
+                    </telerik:RadNavigationViewItem.Icon>
+                </telerik:RadNavigationViewItem>
+                <telerik:RadNavigationViewItem Content="Statistiques" Click="Satistiques_Click">
+                    <telerik:RadNavigationViewItem.Icon>
+                        <telerik:RadGlyph Glyph="&#xe303;" FontSize="20"/>
+                    </telerik:RadNavigationViewItem.Icon>
+                </telerik:RadNavigationViewItem>
+            </telerik:RadNavigationView.Items>
+            <Canvas Margin="0,0,51,68">
+                <StackPanel  x:Name="studentView" Visibility="Visible" Height="613" Width="867"  >
+                    <StackPanel Orientation="Horizontal">
+                        <telerik:RadComboBox x:Name="filiereComboBox" SelectionChanged="filiereComboBox_SelectionChanged" HorizontalAlignment="Left" Margin="20,34,0,0" VerticalAlignment="Top" Width="210" Background="#FFE1AEAE" Height="35" EmptyText="Liste des filières" Text=""  />
+                        <StackPanel HorizontalAlignment="Left" Height="128"  VerticalAlignment="Top" Width="304" Background="#FFF5CECE" x:Name="infoFiliere" Margin="200, 20, 20, 10">
+                            <telerik:Label Content="Informations à propos de la filière" FontSize="18" FontWeight="Bold" FontStyle="Italic"/>
+                            <Label Content="" x:Name="nomFil" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center"/>
+                            <Label Content="" x:Name="responsableFil" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel  Width="864">
+                        <telerik:RadGridView HorizontalAlignment="Left" Width="808" x:Name="studentsListView" Margin="10,20,0,20" Background="#FFF5DBDB" Height="311" />
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Height="56" Width="533" >
+                            <telerik:RadButton Content="Ajouter" Click="addStudent" Background="#FFFF9595" Height="54" Width="179"/>
+                            <telerik:RadButton Content="Modifier" Click="updateStudent" Background="#FFFF9595" Height="54" Width="179"/>
+                            <telerik:RadButton Content="Supprimer" Click="deleteStudent" Background="#FFFF9595" Height="54" Width="179"/>
+
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel  Height="566" Width="825" x:Name="viewFiliere" Visibility="Hidden">
+                    <telerik:Label Content="Gestion des filières" HorizontalAlignment="Center" Foreground="#FFFEA4A4" FontSize="30" Margin="0,20,0,0" />
+                    <telerik:RadCarousel x:Name="carouselFiliere" telerik:StyleManager.Theme="VisualStudio2019" Background="#FFC4C4C4" Height="200" Margin="10,40,10,20" />
+                    <telerik:RadRadialMenu  MinHeight="230" MinWidth="260" x:Name="radialMenu" Padding="40" Background="#FFD18C8C" InnerNavigationRadiusFactor="0.85" InnerRadiusFactor="0.4"  >
+                        <telerik:RadRadialMenuItem Header="Ajouter" x:Name="menuAddFiliere" Click="menuAddFiliere_Click" />
+                        <telerik:RadRadialMenuItem Header="Modifier" x:Name="menuUpdateFiliere" Click="menuUpdateFiliere_Click" />
+                        <telerik:RadRadialMenuItem Header="Supprimer" x:Name="menuDeleteFiliere" Click="menuDeleteFiliere_Click" />
+                    </telerik:RadRadialMenu>
+                </StackPanel>
+
+                <StackPanel Canvas.Left="184" Canvas.Top="323" Height="243" Width="443" x:Name="formNewFiliere" Background="#FFBABABA" Visibility="Hidden">
+                    <StackPanel Orientation="Horizontal" Margin="30,60,0,20">
+                        <telerik:Label Content="Nom filière" Margin="0 0 20 0"/>
+                        <TextBox x:Name="newFiliereName" Width="200" Margin="36,0,0,0"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="30,0,0,30">
+                        <telerik:Label Content="Manager filière" Margin="0 0 20 0"/>
+                        <TextBox x:Name="newFiliereManager" Width="200"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <telerik:RadButton x:Name="submitNewFiliere" Content="Submit" Margin="0,0,15,0" MinWidth="100" Click="submitNewFiliere_Click"/>
+                        <telerik:RadButton x:Name="resetNewFiliere" Content="Reset" MinWidth="100" Margin="15,0,0,0" Click="resetNewFiliere_Click"/>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Canvas.Left="184" Canvas.Top="323" Height="243" Width="512" x:Name="formUpdateFiliere" Background="#FFBABABA" Visibility="Hidden">
+                    <StackPanel Orientation="Horizontal" Margin="30,60,0,20">
+                        <telerik:Label Content="Nouveau nom filière" Margin="0 0 20 0"/>
+                        <TextBox x:Name="filiereUpdatedName" Width="200" Margin="36,0,0,0"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="30,0,0,30">
+                        <telerik:Label Content="Manager filière" Margin="0 0 20 0"/>
+                        <TextBox x:Name="filiereUpdatedManager" Width="200" Margin="80,0,0,0"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <telerik:RadButton x:Name="updateFiliere" Content="Submit" Margin="0,0,15,0" MinWidth="100" Click="updateFiliere_Click"/>
+                        <telerik:RadButton x:Name="resetUpdateFiliere" Content="Reset" MinWidth="100" Margin="15,0,0,0" Click="resetUpdateFiliere_Click"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel x:Name="addStudentForm" Height="253" Width="616" Background="White" Orientation="Horizontal" Canvas.Left="103" Canvas.Top="360" Visibility="Hidden">
+                    <Grid Canvas.Left="10" Canvas.Top="10" Width="487" Margin="0,8,0,0.333">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="45*"/>
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Label Margin="0,0,0.333,35" Grid.RowSpan="2" >CNE:</Label>
+                        <TextBox Margin="13.667,0,44.667,9.667" Grid.ColumnSpan="2" x:Name="studentCne" Grid.Column="1" />
+                        <Label Grid.Row="1" Margin="0,0,0,33" Grid.RowSpan="2">Nom:</Label>
+                        <TextBox Grid.Row="1" Margin="13.667,0.333,44.667,10.333" Grid.ColumnSpan="2" x:Name="studentName" Grid.Column="1"/>
+                        <Label Grid.Row="1" Margin="0,36.333,0.333,128" Grid.RowSpan="2">Prénom:</Label>
+                        <TextBox Grid.Row="1" AcceptsReturn="True" Grid.ColumnSpan="2" Margin="13.667,36.333,44.667,141" x:Name="studentLastName" Grid.RowSpan="2" Grid.Column="1"/>
+                        <Label Margin="0,41.667,16.667,91" Grid.ColumnSpan="2" Grid.Row="2" >Sexe:</Label>
+                        <ComboBox x:Name="sexeStudent" HorizontalAlignment="Left" Margin="13.667,44,0,0" Grid.Row="2" VerticalAlignment="Top" Width="263" RenderTransformOrigin="-0.411,-0.511" Grid.ColumnSpan="2" Grid.Column="1">
+                            <ComboBoxItem Content="Select sexe" IsSelected="True"/>
+                            <ComboBoxItem Content="F"/>
+                            <ComboBoxItem Content="M"/>
+                        </ComboBox>
+                        <Label Margin="-1,78.667,0.333,54" Grid.Row="2" >Date de naissance:</Label>
+                        <DatePicker x:Name="date_naissStudent" Grid.Column="1" Margin="13.667,78,44.667,43" Grid.Row="2" Grid.ColumnSpan="2"></DatePicker>
+                        <Button Content="save" Click="saveStudent" Grid.ColumnSpan="3" Margin="109,133,239.667,5.333" Grid.Row="2"/>
+                        <Button Content="Reset" Grid.Column="2" HorizontalAlignment="Left" Margin="100.667,133,0,0" Grid.Row="2" VerticalAlignment="Top" Width="145" Height="33" Click="Button_Click"/>
+                    </Grid>
+
+
+                </StackPanel>
+
+                <StackPanel x:Name="updateStudentForm" Height="253" Width="815" Background="White" Orientation="Horizontal" Canvas.Left="10" Canvas.Top="323" Visibility="Hidden">
+                    <Grid Canvas.Left="10" Canvas.Top="10" Width="500" Margin="180,8,0,0.333">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="45*"/>
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Label Margin="0,0,0,35" Grid.RowSpan="2" >CNE:</Label>
+                        <TextBox Margin="13.667,0,44.667,9.667" Grid.ColumnSpan="2" x:Name="newstudentCne" Grid.Column="1" />
+                        <Label Grid.Row="1" Margin="0,0,0,33" Grid.RowSpan="2">Nom:</Label>
+                        <TextBox Grid.Row="1" Margin="13.667,0.333,44.667,10.333" Grid.ColumnSpan="2" x:Name="newstudentName" Grid.Column="1"/>
+                        <Label Grid.Row="1" Margin="0,36.333,0.333,128" Grid.RowSpan="2">Prénom:</Label>
+                        <TextBox Grid.Row="1" AcceptsReturn="True" Grid.ColumnSpan="2" Margin="13.667,36.333,44.667,141" x:Name="newstudentLastName" Grid.RowSpan="2" Grid.Column="1"/>
+                        <Label Margin="0,41.667,16.667,91" Grid.ColumnSpan="2" Grid.Row="2" >Sexe:</Label>
+                        <ComboBox x:Name="newsexeStudent" HorizontalAlignment="Left" Margin="13.667,44,0,0" Grid.Row="2" VerticalAlignment="Top" Width="263" RenderTransformOrigin="-0.411,-0.511" Grid.ColumnSpan="2" Grid.Column="1">
+                            <ComboBoxItem Content="Select sexe" IsSelected="True"/>
+                            <ComboBoxItem Content="F"/>
+                            <ComboBoxItem Content="M"/>
+                        </ComboBox>
+                        <Label Margin="-1,78.667,0.333,54" Grid.Row="2" >Date de naissance:</Label>
+                        <DatePicker x:Name="newdate_naissStudent" Grid.Column="1" Margin="13.667,78,44.667,43" Grid.Row="2" Grid.ColumnSpan="2"></DatePicker>
+                        <Button Content="save" Click="saveStudent" Grid.ColumnSpan="3" Margin="136,136,212.667,2.333" Grid.Row="2"/>
+                        <Button Content="Reset" Margin="129.667,136,44.667,2.333" Grid.Row="2" Grid.Column="2" Click="ResetProfil_Click"/>
+                    </Grid>
+
+
+                </StackPanel>
+                <StackPanel Height="661" Width="825" Visibility="Hidden" x:Name="statistiquesPane">
+                    <telerik:RadCartesianChart3D Height="661" Margin="40,-70,10.333,0" >
+                        <telerik:RadCartesianChart3D.XAxis >
+                            <telerik:CategoricalAxis3D />
+                        </telerik:RadCartesianChart3D.XAxis>
+                        <telerik:RadCartesianChart3D.YAxis>
+                            <telerik:CategoricalAxis3D />
+                        </telerik:RadCartesianChart3D.YAxis>
+                        <telerik:RadCartesianChart3D.ZAxis>
+                            <telerik:LinearAxis3D />
+                        </telerik:RadCartesianChart3D.ZAxis>
+                        <telerik:RadCartesianChart3D.Series>
+                            <telerik:BarSeries3D x:Name="barSeries" XValueBinding="XValue" YValueBinding="YValue" ZValueBinding="ZValue">
+
+                            </telerik:BarSeries3D>
+                        </telerik:RadCartesianChart3D.Series>
+                        <telerik:RadCartesianChart3D.Grid>
+                            <telerik:CartesianChart3DGrid />
+                        </telerik:RadCartesianChart3D.Grid>
+
+                    </telerik:RadCartesianChart3D>
+                </StackPanel>
+
+            </Canvas>
+        </telerik:RadNavigationView>
+
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,114 @@
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\App.g.cs
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres_MarkupCompile.cache
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres_MarkupCompile.lref
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\ProjetGestionFilieres.exe.config
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\ProjetGestionFilieres.exe
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\ProjetGestionFilieres.pdb
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.DataVisualization.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Data.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.xml
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.DataVisualization.xml
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Data.xml
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\MainWindow.baml
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.g.resources
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.Properties.Resources.resources
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.csproj.GenerateResource.cache
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.exe.licenses
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.csproj.CopyComplete
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.exe
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.pdb
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\Profil.g.cs
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\obj\Debug\Profil.baml
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Navigation.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Navigation.xml
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.GridView.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Input.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.GridView.xml
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Input.xml
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Chart.dll
+C:\Users\lenovo\source\repos\WPF\ProjetGestionFilieres\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Chart.xml
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\MainWindow.g.cs
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\Profil.g.cs
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\App.g.cs
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres_MarkupCompile.cache
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres_MarkupCompile.lref
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.exe
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.pdb
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\ProjetGestionFilieres.exe.config
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\ProjetGestionFilieres.exe
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\ProjetGestionFilieres.pdb
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Chart.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.DataVisualization.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.GridView.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Input.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Navigation.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Data.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.xml
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Chart.xml
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.DataVisualization.xml
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.GridView.xml
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Input.xml
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Navigation.xml
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Data.xml
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\MainWindow.baml
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\Profil.baml
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.g.resources
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.Properties.Resources.resources
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.csproj.GenerateResource.cache
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.exe.licenses
+C:\Users\dell\Desktop\projet wpf\WPF_GestionEtudaints\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.csproj.CopyComplete
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\ProjetGestionFilieres.exe.config
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\ProjetGestionFilieres.exe
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\ProjetGestionFilieres.pdb
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Chart.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.DataVisualization.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.GridView.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Input.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Navigation.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Data.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.xml
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Chart.xml
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.DataVisualization.xml
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.GridView.xml
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Input.xml
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Controls.Navigation.xml
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\Telerik.Windows.Data.xml
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\Profil.g.cs
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\App.g.cs
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres_MarkupCompile.cache
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres_MarkupCompile.lref
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\MainWindow.baml
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\Profil.baml
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.g.resources
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.Properties.Resources.resources
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.exe.licenses
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.csproj.CopyComplete
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.exe
+C:\Users\lenovo\Desktop\WPF_GestionEtudaints-TestBranchWip\ProjetGestionFilieres\obj\Debug\ProjetGestionFilieres.pdb
